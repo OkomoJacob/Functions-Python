@@ -1,4 +1,4 @@
-def helloFunc():
-    return "Hello, buddy!"
+def helloFunc(greeting):
+    return '{} ,buddy!'.format(greeting) 
 
-print(helloFunc())
+print(helloFunc('Hi'))
