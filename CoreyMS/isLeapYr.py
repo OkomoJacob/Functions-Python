@@ -10,8 +10,9 @@ def isLeap(year):
 
 def daysInMonth(year, month):
     """Return number of days in that month in that year"""
-    if not 1 <= month <= 12 :
+    if not 1 <= month <= 12 : # Month must be between 1 and 12, else Invalid
         return 'Invalid Month'
+
     if month == 2 and isLeap(year):
         return 29
     
