@@ -1,4 +1,4 @@
 def helloFunc():
-    pass
+    print("Hello, buddy!")
 
-print(helloFunc)
+helloFunc()
